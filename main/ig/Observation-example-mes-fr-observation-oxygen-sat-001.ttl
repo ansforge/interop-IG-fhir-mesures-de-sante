@@ -1,7 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
-@prefix loinc: <https://loinc.org/rdf/> .
+@prefix loinc: <http://loinc.org/rdf#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -9,48 +8,53 @@
 
 <https://interop.esante.gouv.fr/ig/fhir/mesures/Observation/example-mes-fr-observation-oxygen-sat-001> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "example-mes-fr-observation-oxygen-sat-001"] ; # 
-  fhir:meta [
-     fhir:profile ( [
-       fhir:v "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-oxygen-sat"^^xsd:anyURI ;
+  fhir:Resource.id [ fhir:value "example-mes-fr-observation-oxygen-sat-001"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-oxygen-sat" ;
+       fhir:index 0 ;
        fhir:link <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-oxygen-sat>
-     ] )
-  ] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : Observation example-mes-fr-observation-oxygen-sat-001</b></p><a name=\"example-mes-fr-observation-oxygen-sat-001\"> </a><a name=\"hcexample-mes-fr-observation-oxygen-sat-001\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-mesures-fr-observation-oxygen-sat.html\">Saturation en Oxygène</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes :{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes :{http://loinc.org 2708-6}\">Oxygène saturation [Fraction massique] Sang artériel ; Numérique</span></p><p><b>subject</b>: <a href=\"Patient-example-mes-fr-patient-001.html\">Pierre Durand</a></p><p><b>effective</b>: 1999-07-02</p><p><b>value</b>: 99 %O2<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUM% = '%')</span></p></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:status [ fhir:v "final"] ; # 
-  fhir:category ( [
-     fhir:coding ( [
-       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "vital-signs" ]
-     ] )
-  ] ) ; # 
-  fhir:code [
-     fhir:coding ( [
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : Observation example-mes-fr-observation-oxygen-sat-001</b></p><a name=\"example-mes-fr-observation-oxygen-sat-001\"> </a><a name=\"hcexample-mes-fr-observation-oxygen-sat-001\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-mesures-fr-observation-oxygen-sat.html\">Saturation en Oxygène</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes :{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes :{http://loinc.org 2708-6}\">Oxygène saturation [Fraction massique] Sang artériel ; Numérique</span></p><p><b>subject</b>: <a href=\"Patient-example-mes-fr-patient-001.html\">Pierre Durand</a></p><p><b>effective</b>: 1999-07-02</p><p><b>value</b>: 99 %O2<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUM% = '%')</span></p></div>"
+  ] ;
+  fhir:Observation.status [ fhir:value "final"] ;
+  fhir:Observation.category [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/observation-category" ] ;
+       fhir:Coding.code [ fhir:value "vital-signs" ]
+     ]
+  ] ;
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
        a loinc:2708-6 ;
-       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "2708-6" ] ;
-       fhir:display [ fhir:v "Oxygène saturation [Fraction massique] Sang artériel ; Numérique" ]
-     ] )
-  ] ; # 
-  fhir:subject [
+       fhir:Coding.system [ fhir:value "http://loinc.org" ] ;
+       fhir:Coding.code [ fhir:value "2708-6" ] ;
+       fhir:Coding.display [ fhir:value "Oxygène saturation [Fraction massique] Sang artériel ; Numérique" ]
+     ]
+  ] ;
+  fhir:Observation.subject [
      fhir:link <https://interop.esante.gouv.fr/ig/fhir/mesures/Patient/example-mes-fr-patient-001> ;
-     fhir:reference [ fhir:v "Patient/example-mes-fr-patient-001" ] ;
-     fhir:display [ fhir:v "Pierre Durand" ]
-  ] ; # 
-  fhir:effective [
-     a fhir:dateTime ;
-     fhir:v "1999-07-02"^^xsd:date
-  ] ; # 
-  fhir:value [
-     a fhir:Quantity ;
-     fhir:value [ fhir:v "99"^^xsd:decimal ] ;
-     fhir:unit [ fhir:v "%O2" ] ;
-     fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
-     fhir:code [ fhir:v "%" ]
-  ] . # 
+     fhir:Reference.reference [ fhir:value "Patient/example-mes-fr-patient-001" ] ;
+     fhir:Reference.display [ fhir:value "Pierre Durand" ]
+  ] ;
+  fhir:Observation.effectiveDateTime [ fhir:value "1999-07-02"^^xsd:date] ;
+  fhir:Observation.valueQuantity [
+     fhir:Quantity.value [ fhir:value "99"^^xsd:decimal ] ;
+     fhir:Quantity.unit [ fhir:value "%O2" ] ;
+     fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+     fhir:Quantity.code [ fhir:value "%" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/mesures/Observation/example-mes-fr-observation-oxygen-sat-001.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

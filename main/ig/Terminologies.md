@@ -42,7 +42,7 @@ Les codes de la nomenclature MDC (Médical Device Communication) sont issus de l
 | [Taille](https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bodyheight) | 8302-2 | [Logical Observation Identifiers, Names and Codes (LOINC)](http://loinc.org) |
 | [Température](https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-body-temperature) | 8310-5 | [Logical Observation Identifiers, Names and Codes (LOINC)](http://loinc.org) |
 
-Le profil glycémie peut supporter plusieurs codes issus du [JDV J153](https://mos.esante.gouv.fr/NOS/JDV_J154-TypeGlucose-ENS/FHIR/JDV-J154-TypeGlucose-ENS)
+Le profil glycémie peut supporter plusieurs codes issus du [JDV J154](https://mos.esante.gouv.fr/NOS/JDV_J154-TypeGlucose-ENS/FHIR/JDV-J154-TypeGlucose-ENS)
 
 ### Les jeux de valeurs
 

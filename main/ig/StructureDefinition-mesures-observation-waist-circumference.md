@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-waist-circumference | *Version*:3.2.0 |
-| Active as of 2026-06-26 | *Computable Name*:MesObservationWaistCircumference |
+| Active as of 2026-07-07 | *Computable Name*:MesObservationWaistCircumference |
 
  
 Profil de la ressource Observation pour définir une taille en cm 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-mesures-observation-
   "name" : "MesObservationWaistCircumference",
   "title" : "Tour de taille",
   "status" : "active",
-  "date" : "2026-06-26T10:39:02+00:00",
+  "date" : "2026-07-07T07:06:09+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
