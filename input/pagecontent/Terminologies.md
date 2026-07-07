@@ -36,7 +36,7 @@ and (
     )
 GROUP BY `Titre du profil` %}
 
-Le profil glycémie peut supporter plusieurs codes issus du [JDV J153](https://mos.esante.gouv.fr/NOS/JDV_J154-TypeGlucose-ENS/FHIR/JDV-J154-TypeGlucose-ENS)
+Le profil glycémie peut supporter plusieurs codes issus du [JDV J154](https://mos.esante.gouv.fr/NOS/JDV_J154-TypeGlucose-ENS/FHIR/JDV-J154-TypeGlucose-ENS)
 
 ### Les jeux de valeurs
 
