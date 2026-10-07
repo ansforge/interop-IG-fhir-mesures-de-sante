@@ -2,8 +2,8 @@ Mesures : Validation Results
 =========================================
 
 err = 249, warn = 118, info = 68
-IG Publisher Version: 2.3.4 Out of date - current version is null
-Generated Wed Oct 07 08:23:39 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.mesures#3.2.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/mesures)
+IG Publisher Version: 2.3.4 Out of date - current version is 2.3.5
+Generated Wed Oct 07 08:36:35 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.mesures#3.2.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/mesures)
  Build Errors : 245 / 15 / 0
  /__w/interop-IG-fhir-mesures-de-sante/interop-IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Bundle-example-mes-fr-bundle-bio-003 : 2 / 10 / 21
  /__w/interop-IG-fhir-mesures-de-sante/interop-IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Bundle-example-mes-fr-bundle-body-weight : 0 / 2 / 10

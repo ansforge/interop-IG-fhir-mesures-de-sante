@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "Mesures"] ;
   fhir:ImplementationGuide.title [ fhir:value "Guide d'implémentation FHIR - Mesures de santé"] ;
   fhir:ImplementationGuide.status [ fhir:value "active"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-10-07T08:21:30+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-10-07T08:35:11+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "ANS"] ;
   fhir:ImplementationGuide.contact [
      fhir:index 0 ;
