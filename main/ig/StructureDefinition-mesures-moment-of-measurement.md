@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-moment-of-measurement | *Version*:3.2.0 |
-| Active as of 2026-07-07 | *Computable Name*:MesMomentOfMeasurement |
+| Active as of 2026-10-07 | *Computable Name*:MesMomentOfMeasurement |
 
 Extension pour indiquer le moment de la mesure
 
@@ -51,7 +51,7 @@ Other representations of profile: [CSV](StructureDefinition-mesures-moment-of-me
   "name" : "MesMomentOfMeasurement",
   "title" : "Moment de la mesure",
   "status" : "active",
-  "date" : "2026-07-07T07:06:09+00:00",
+  "date" : "2026-10-07T08:13:15+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

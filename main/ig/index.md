@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/mesures/ImplementationGuide/ans.fhir.fr.mesures | *Version*:3.2.0 |
-| Active as of 2026-07-07 | *Computable Name*:Mesures |
+| Active as of 2026-10-07 | *Computable Name*:Mesures |
 
  **Vital Signs Implementation Guide**
  This implementation guide contains the profiles to share vital-signs for the French ecosystem. 
@@ -124,7 +124,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
 
 * [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) 
 
-* [European Medical device nomenclature](https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-terminologie-emdn.html): [MesFrObservationBodyHeight](StructureDefinition-mesures-fr-observation-bodyheight.md), [MesFrObservationBodyTemperature](StructureDefinition-mesures-fr-observation-body-temperature.md)... Show 5 more, [MesFrObservationBodyWeight](StructureDefinition-mesures-fr-observation-body-weight.md), [MesFrObservationBp](StructureDefinition-mesures-fr-observation-bp.md), [MesFrObservationHeartrate](StructureDefinition-mesures-fr-observation-heartrate.md), [MesFrObservationOxygenSat](StructureDefinition-mesures-fr-observation-oxygen-sat.md) and [MesObservationStepsByDay](StructureDefinition-mesures-observation-steps-by-day.md)
+* [European Medical device nomenclature](https://interop.esante.gouv.fr/terminologies/1.14.0/CodeSystem-terminologie-emdn.html): [MesFrObservationBodyHeight](StructureDefinition-mesures-fr-observation-bodyheight.md), [MesFrObservationBodyTemperature](StructureDefinition-mesures-fr-observation-body-temperature.md)... Show 5 more, [MesFrObservationBodyWeight](StructureDefinition-mesures-fr-observation-body-weight.md), [MesFrObservationBp](StructureDefinition-mesures-fr-observation-bp.md), [MesFrObservationHeartrate](StructureDefinition-mesures-fr-observation-heartrate.md), [MesFrObservationOxygenSat](StructureDefinition-mesures-fr-observation-oxygen-sat.md) and [MesObservationStepsByDay](StructureDefinition-mesures-observation-steps-by-day.md)
 
 
 * ISO maintains the copyright on the country codes, and controls its use carefully. For further details see the ISO 3166 web page: [https://www.iso.org/iso-3166-country-codes.html](https://www.iso.org/iso-3166-country-codes.html)
@@ -149,8 +149,8 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
 
 * This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: [https://terminology.hl7.org/license.html](https://terminology.hl7.org/license.html)
 
-* [Observation Category Codes](http://terminology.hl7.org/7.2.0/CodeSystem-observation-category.html): [Bundle/example-mes-fr-bundle-bio-003](Bundle-example-mes-fr-bundle-bio-003.md), [Bundle/example-mes-fr-bundle-body-weight](Bundle-example-mes-fr-bundle-body-weight.md)... Show 15 more, [Observation/8057b6ec-1417-4f1f-9a00-b0c46e7e71b1](Observation-8057b6ec-1417-4f1f-9a00-b0c46e7e71b1.md), [Observation/example-mes-fr-observation-bmi-001](Observation-example-mes-fr-observation-bmi-001.md), [Observation/example-mes-fr-observation-body-height-001](Observation-example-mes-fr-observation-body-height-001.md), [Observation/example-mes-fr-observation-body-temperature-001](Observation-example-mes-fr-observation-body-temperature-001.md), [Observation/example-mes-fr-observation-body-weight-001](Observation-example-mes-fr-observation-body-weight-001.md), [Observation/example-mes-fr-observation-bp-001](Observation-example-mes-fr-observation-bp-001.md), [Observation/example-mes-fr-observation-glucose-001](Observation-example-mes-fr-observation-glucose-001.md), [Observation/example-mes-fr-observation-hb1ac-001](Observation-example-mes-fr-observation-hb1ac-001.md), [Observation/example-mes-fr-observation-head-circumference-001](Observation-example-mes-fr-observation-head-circumference-001.md), [Observation/example-mes-fr-observation-heartrate-001](Observation-example-mes-fr-observation-heartrate-001.md), [Observation/example-mes-fr-observation-oxygen-sat-001](Observation-example-mes-fr-observation-oxygen-sat-001.md), [Observation/example-mes-fr-observation-pain-severity-001](Observation-example-mes-fr-observation-pain-severity-001.md), [Observation/example-mes-fr-observation-resp-rate-001](Observation-example-mes-fr-observation-resp-rate-001.md), [Observation/example-mes-fr-observation-steps-by-day-001](Observation-example-mes-fr-observation-steps-by-day-001.md) and [Observation/example-mes-fr-observation-waist-circum-001](Observation-example-mes-fr-observation-waist-circum-001.md)
-* [ObservationInterpretation](http://terminology.hl7.org/7.2.0/CodeSystem-v3-ObservationInterpretation.html): [MesFrObservationBmi](StructureDefinition-mesures-fr-observation-bmi.md), [MesFrObservationBodyTemperature](StructureDefinition-mesures-fr-observation-body-temperature.md)... Show 5 more, [MesFrObservationBodyWeight](StructureDefinition-mesures-fr-observation-body-weight.md), [MesFrObservationBp](StructureDefinition-mesures-fr-observation-bp.md), [MesFrObservationHeartrate](StructureDefinition-mesures-fr-observation-heartrate.md), [Observation/example-mes-fr-observation-bmi-001](Observation-example-mes-fr-observation-bmi-001.md) and [Observation/example-mes-fr-observation-bp-001](Observation-example-mes-fr-observation-bp-001.md)
+* [Observation Category Codes](http://terminology.hl7.org/7.4.0/CodeSystem-observation-category.html): [Bundle/example-mes-fr-bundle-bio-003](Bundle-example-mes-fr-bundle-bio-003.md), [Bundle/example-mes-fr-bundle-body-weight](Bundle-example-mes-fr-bundle-body-weight.md)... Show 15 more, [Observation/8057b6ec-1417-4f1f-9a00-b0c46e7e71b1](Observation-8057b6ec-1417-4f1f-9a00-b0c46e7e71b1.md), [Observation/example-mes-fr-observation-bmi-001](Observation-example-mes-fr-observation-bmi-001.md), [Observation/example-mes-fr-observation-body-height-001](Observation-example-mes-fr-observation-body-height-001.md), [Observation/example-mes-fr-observation-body-temperature-001](Observation-example-mes-fr-observation-body-temperature-001.md), [Observation/example-mes-fr-observation-body-weight-001](Observation-example-mes-fr-observation-body-weight-001.md), [Observation/example-mes-fr-observation-bp-001](Observation-example-mes-fr-observation-bp-001.md), [Observation/example-mes-fr-observation-glucose-001](Observation-example-mes-fr-observation-glucose-001.md), [Observation/example-mes-fr-observation-hb1ac-001](Observation-example-mes-fr-observation-hb1ac-001.md), [Observation/example-mes-fr-observation-head-circumference-001](Observation-example-mes-fr-observation-head-circumference-001.md), [Observation/example-mes-fr-observation-heartrate-001](Observation-example-mes-fr-observation-heartrate-001.md), [Observation/example-mes-fr-observation-oxygen-sat-001](Observation-example-mes-fr-observation-oxygen-sat-001.md), [Observation/example-mes-fr-observation-pain-severity-001](Observation-example-mes-fr-observation-pain-severity-001.md), [Observation/example-mes-fr-observation-resp-rate-001](Observation-example-mes-fr-observation-resp-rate-001.md), [Observation/example-mes-fr-observation-steps-by-day-001](Observation-example-mes-fr-observation-steps-by-day-001.md) and [Observation/example-mes-fr-observation-waist-circum-001](Observation-example-mes-fr-observation-waist-circum-001.md)
+* [ObservationInterpretation](http://terminology.hl7.org/7.4.0/CodeSystem-v3-ObservationInterpretation.html): [MesFrObservationBmi](StructureDefinition-mesures-fr-observation-bmi.md), [MesFrObservationBodyTemperature](StructureDefinition-mesures-fr-observation-body-temperature.md)... Show 5 more, [MesFrObservationBodyWeight](StructureDefinition-mesures-fr-observation-body-weight.md), [MesFrObservationBp](StructureDefinition-mesures-fr-observation-bp.md), [MesFrObservationHeartrate](StructureDefinition-mesures-fr-observation-heartrate.md), [Observation/example-mes-fr-observation-bmi-001](Observation-example-mes-fr-observation-bmi-001.md) and [Observation/example-mes-fr-observation-bp-001](Observation-example-mes-fr-observation-bp-001.md)
 
 
 
@@ -166,7 +166,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "Mesures",
   "title" : "Guide d'implémentation FHIR - Mesures de santé",
   "status" : "active",
-  "date" : "2026-07-07T07:06:09+00:00",
+  "date" : "2026-10-07T08:13:15+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -193,7 +193,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.2.0"
+    "version" : "7.4.0"
   },
   {
     "id" : "hl7ext",
@@ -221,7 +221,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
     "id" : "ans_fr_terminologies",
     "uri" : "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies",
     "packageId" : "ans.fr.terminologies",
-    "version" : "1.11.0"
+    "version" : "1.14.0"
   }],
   "definition" : {
     "extension" : [{
@@ -854,6 +854,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-bundle-flux-alimentation.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-bundle-flux-alimentation"
@@ -866,6 +870,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-bundle-flux-alimentation-biologie.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-bundle-flux-alimentation-biologie"
@@ -878,6 +886,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-observation-cholesterol-aspect.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-observation-cholesterol-aspect"
@@ -890,6 +902,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-observation-cholesterol-hdl.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-observation-cholesterol-hdl"
@@ -902,6 +918,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-observation-cholesterol-ldl.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-observation-cholesterol-ldl"
@@ -914,6 +934,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-observation-cholesterol-total.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-observation-cholesterol-total"
@@ -926,6 +950,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-observation-cholesterol-trigly.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-observation-cholesterol-trigly"
@@ -938,6 +966,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-diagnostic-report.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-diagnostic-report"
@@ -950,6 +982,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-example-mes-fr-bundle-bio-003.html"
       }],
       "reference" : {
         "reference" : "Bundle/example-mes-fr-bundle-bio-003"
@@ -962,6 +998,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-example-mes-fr-bundle-body-weight.html"
       }],
       "reference" : {
         "reference" : "Bundle/example-mes-fr-bundle-body-weight"
@@ -974,6 +1014,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Device"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Device-example-mes-fr-phd-device-001.html"
       }],
       "reference" : {
         "reference" : "Device/example-mes-fr-phd-device-001"
@@ -986,6 +1030,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-example-mes-fr-observation-bmi-001.html"
       }],
       "reference" : {
         "reference" : "Observation/example-mes-fr-observation-bmi-001"
@@ -998,6 +1046,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-example-mes-fr-observation-heartrate-001.html"
       }],
       "reference" : {
         "reference" : "Observation/example-mes-fr-observation-heartrate-001"
@@ -1010,6 +1062,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-example-mes-fr-observation-resp-rate-001.html"
       }],
       "reference" : {
         "reference" : "Observation/example-mes-fr-observation-resp-rate-001"
@@ -1022,6 +1078,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-8057b6ec-1417-4f1f-9a00-b0c46e7e71b1.html"
       }],
       "reference" : {
         "reference" : "Observation/8057b6ec-1417-4f1f-9a00-b0c46e7e71b1"
@@ -1034,6 +1094,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-example-mes-fr-observation-glucose-001.html"
       }],
       "reference" : {
         "reference" : "Observation/example-mes-fr-observation-glucose-001"
@@ -1046,6 +1110,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-example-mes-fr-observation-bp-001.html"
       }],
       "reference" : {
         "reference" : "Observation/example-mes-fr-observation-bp-001"
@@ -1058,6 +1126,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-example-mes-fr-observation-oxygen-sat-001.html"
       }],
       "reference" : {
         "reference" : "Observation/example-mes-fr-observation-oxygen-sat-001"
@@ -1070,6 +1142,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-example-mes-fr-observation-pain-severity-001.html"
       }],
       "reference" : {
         "reference" : "Observation/example-mes-fr-observation-pain-severity-001"
@@ -1082,6 +1158,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-example-mes-fr-observation-body-temperature-001.html"
       }],
       "reference" : {
         "reference" : "Observation/example-mes-fr-observation-body-temperature-001"
@@ -1094,6 +1174,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-example-mes-fr-observation-body-weight-001.html"
       }],
       "reference" : {
         "reference" : "Observation/example-mes-fr-observation-body-weight-001"
@@ -1106,6 +1190,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-example-mes-fr-observation-body-height-001.html"
       }],
       "reference" : {
         "reference" : "Observation/example-mes-fr-observation-body-height-001"
@@ -1118,6 +1206,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-7b166d82-27b6-4878-9765-3fe101618edf.html"
       }],
       "reference" : {
         "reference" : "Observation/7b166d82-27b6-4878-9765-3fe101618edf"
@@ -1130,6 +1222,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-9bd2b013-27b0-4283-aa9e-fe7a5e0c6f1e.html"
       }],
       "reference" : {
         "reference" : "Observation/9bd2b013-27b0-4283-aa9e-fe7a5e0c6f1e"
@@ -1142,6 +1238,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-b7a049e3-c07e-4e1c-95a5-909da37f75ce.html"
       }],
       "reference" : {
         "reference" : "Observation/b7a049e3-c07e-4e1c-95a5-909da37f75ce"
@@ -1154,6 +1254,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-645f7341-715f-44fb-87e9-93f2e7d125a5.html"
       }],
       "reference" : {
         "reference" : "Observation/645f7341-715f-44fb-87e9-93f2e7d125a5"
@@ -1166,6 +1270,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-example-mes-fr-observation-steps-by-day-001.html"
       }],
       "reference" : {
         "reference" : "Observation/example-mes-fr-observation-steps-by-day-001"
@@ -1178,6 +1286,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-example-mes-fr-observation-head-circumference-001.html"
       }],
       "reference" : {
         "reference" : "Observation/example-mes-fr-observation-head-circumference-001"
@@ -1190,6 +1302,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-example-mes-fr-observation-waist-circum-001.html"
       }],
       "reference" : {
         "reference" : "Observation/example-mes-fr-observation-waist-circum-001"
@@ -1202,6 +1318,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-example-mes-fr-observation-hb1ac-001.html"
       }],
       "reference" : {
         "reference" : "Observation/example-mes-fr-observation-hb1ac-001"
@@ -1214,6 +1334,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Patient"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Patient-example-mes-fr-patient-001.html"
       }],
       "reference" : {
         "reference" : "Patient/example-mes-fr-patient-001"
@@ -1226,6 +1350,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Practitioner"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Practitioner-example-mes-fr-practitionner-001.html"
       }],
       "reference" : {
         "reference" : "Practitioner/example-mes-fr-practitionner-001"
@@ -1238,6 +1366,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "DiagnosticReport"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "DiagnosticReport-example-mes-fr-diagnostic-report-cholesterol-003.html"
       }],
       "reference" : {
         "reference" : "DiagnosticReport/example-mes-fr-diagnostic-report-cholesterol-003"
@@ -1250,6 +1382,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-fr-observation-heartrate.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-fr-observation-heartrate"
@@ -1262,6 +1398,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-fr-observation-resp-rate.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-fr-observation-resp-rate"
@@ -1274,6 +1414,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-observation-glucose.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-observation-glucose"
@@ -1286,6 +1430,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-observation-hb1ac.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-observation-hb1ac"
@@ -1298,6 +1446,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-fr-observation-bmi.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-fr-observation-bmi"
@@ -1310,6 +1462,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-moment-of-measurement.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-moment-of-measurement"
@@ -1322,6 +1478,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-method-glucose-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/method-glucose-vs"
@@ -1334,6 +1494,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-observation-pain-severity.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-observation-pain-severity"
@@ -1346,6 +1510,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-number-of-days.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-number-of-days"
@@ -1358,6 +1526,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-observation-steps-by-day.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-observation-steps-by-day"
@@ -1370,6 +1542,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-fr-observation-body-weight.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-fr-observation-body-weight"
@@ -1382,6 +1558,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-fr-observation-bp.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-fr-observation-bp"
@@ -1394,6 +1574,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-observation-head-circumference.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-observation-head-circumference"
@@ -1406,6 +1590,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-reason-for-measurement.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-reason-for-measurement"
@@ -1418,6 +1606,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-fr-observation-oxygen-sat.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-fr-observation-oxygen-sat"
@@ -1430,6 +1622,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-fr-observation-bodyheight.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-fr-observation-bodyheight"
@@ -1442,6 +1638,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-fr-observation-body-temperature.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-fr-observation-body-temperature"
@@ -1454,6 +1654,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-observation-waist-circumference.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-observation-waist-circumference"
@@ -1466,6 +1670,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mesures-original-data.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/mesures-original-data"
