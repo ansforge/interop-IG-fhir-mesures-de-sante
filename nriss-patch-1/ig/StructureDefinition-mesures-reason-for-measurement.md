@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-reason-for-measurement | *Version*:3.2.0 |
-| Active as of 2026-02-23 | *Computable Name*:MesReasonForMeasurement |
+| Active as of 2026-10-07 | *Computable Name*:MesReasonForMeasurement |
 
 Extension du Motif de la mesure, exprimé en texte libre.
 
@@ -51,7 +51,7 @@ Other representations of profile: [CSV](StructureDefinition-mesures-reason-for-m
   "name" : "MesReasonForMeasurement",
   "title" : "Raison de la mesure",
   "status" : "active",
-  "date" : "2026-02-23T17:05:55+00:00",
+  "date" : "2026-10-07T08:01:20+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -65,7 +65,7 @@ Other representations of profile: [CSV](StructureDefinition-mesures-reason-for-m
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FR",
-      "display" : "France"
+      "display" : "France (la)"
     }]
   }],
   "fhirVersion" : "4.0.1",

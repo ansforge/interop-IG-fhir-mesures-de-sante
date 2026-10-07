@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-original-data | *Version*:3.2.0 |
-| Active as of 2026-02-23 | *Computable Name*:MesOriginalData |
+| Active as of 2026-10-07 | *Computable Name*:MesOriginalData |
 
 Extension permettant de renseigner la donnée originale. Dans le cas où une conversion d’unité a été effectuée sur la valeur de la mesure, cette extension permet de conserver la valeur originale telle que mesurée par le dispositif.
 
@@ -51,7 +51,7 @@ Other representations of profile: [CSV](StructureDefinition-mesures-original-dat
   "name" : "MesOriginalData",
   "title" : "Valeur originale",
   "status" : "active",
-  "date" : "2026-02-23T17:05:55+00:00",
+  "date" : "2026-10-07T08:01:20+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -65,7 +65,7 @@ Other representations of profile: [CSV](StructureDefinition-mesures-original-dat
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FR",
-      "display" : "France"
+      "display" : "France (la)"
     }]
   }],
   "fhirVersion" : "4.0.1",
@@ -87,7 +87,7 @@ Other representations of profile: [CSV](StructureDefinition-mesures-original-dat
     "element" : [{
       "id" : "Extension",
       "path" : "Extension",
-      "short" : "Nombre de jours",
+      "short" : "Valeur originale de la donnée",
       "definition" : "Extension permettant de renseigner la donnée originale. \r\nDans le cas où une conversion d'unité a été effectuée sur la valeur de la mesure, cette extension permet de conserver la valeur originale telle que mesurée par le dispositif."
     },
     {

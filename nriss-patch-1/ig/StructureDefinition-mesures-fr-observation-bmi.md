@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bmi | *Version*:3.2.0 |
-| Active as of 2026-02-23 | *Computable Name*:MesFrObservationBmi |
+| Active as of 2026-10-07 | *Computable Name*:MesFrObservationBmi |
 
  
 Profil de la ressource Observation pour définir un Indice de Masse Corporelle (acronyme : IMC ou BMI) 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-mesures-fr-observati
   "name" : "MesFrObservationBmi",
   "title" : "Indice de Masse Corporelle",
   "status" : "active",
-  "date" : "2026-02-23T17:05:55+00:00",
+  "date" : "2026-10-07T08:01:20+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -56,7 +56,7 @@ Other representations of profile: [CSV](StructureDefinition-mesures-fr-observati
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FR",
-      "display" : "France"
+      "display" : "France (la)"
     }]
   }],
   "fhirVersion" : "4.0.1",

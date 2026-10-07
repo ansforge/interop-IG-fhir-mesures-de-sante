@@ -1,7 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
-@prefix loinc: <https://loinc.org/rdf/> .
+@prefix loinc: <http://loinc.org/rdf#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -9,143 +8,126 @@
 
 <https://interop.esante.gouv.fr/ig/fhir/mesures/Observation/example-mes-fr-observation-bp-001> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "example-mes-fr-observation-bp-001"] ; # 
-  fhir:meta [
-     fhir:profile ( [
-       fhir:v "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bp"^^xsd:anyURI ;
-       fhir:l <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bp>
-     ] )
-  ] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : Observation example-mes-fr-observation-bp-001</b></p><a name=\"example-mes-fr-observation-bp-001\"> </a><a name=\"hcexample-mes-fr-observation-bp-001\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-mesures-fr-observation-bp.html\">Pression Artérielle</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes :{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes :{http://loinc.org 85354-9}\">Blood pressure panel with all children optional</span></p><p><b>subject</b>: <a href=\"Patient-example-mes-fr-patient-001.html\">Pierre Durand</a></p><p><b>effective</b>: 2012-09-17</p><p><b>performer</b>: <a href=\"Practitioner-example-mes-fr-practitionner-001.html\">Jean Dupont</a></p><p><b>interpretation</b>: <span title=\"Codes :{http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation L}\">Below low normal</span></p><p><b>bodySite</b>: <span title=\"Codes :{https://mos.esante.gouv.fr/NOS/TRE_R309-FMA/FHIR/TRE-R309-FMA 24890}\">Bras</span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes :{http://loinc.org 8480-6}\">Systolic blood pressure</span></p><p><b>value</b>: 107 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmm[Hg] = 'mm[Hg]')</span></p><p><b>interpretation</b>: <span title=\"Codes :{http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation N}\">Normal</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes :{http://loinc.org 8462-4}\">Diastolic blood pressure</span></p><p><b>value</b>: 60 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmm[Hg] = 'mm[Hg]')</span></p><p><b>interpretation</b>: <span title=\"Codes :{http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation L}\">En-dessous de la normale</span></p></blockquote></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:status [ fhir:v "final"] ; # 
-  fhir:category ( [
-     fhir:coding ( [
-       fhir:system [
-         fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
-       ] ;
-       fhir:code [ fhir:v "vital-signs" ]
-     ] )
-  ] ) ; # 
-  fhir:code [
-     fhir:coding ( [
+  fhir:Resource.id [ fhir:value "example-mes-fr-observation-bp-001"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bp" ;
+       fhir:index 0 ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bp>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : Observation example-mes-fr-observation-bp-001</b></p><a name=\"example-mes-fr-observation-bp-001\"> </a><a name=\"hcexample-mes-fr-observation-bp-001\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-mesures-fr-observation-bp.html\">Pression Artérielle</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes :{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes :{http://loinc.org 85354-9}\">Blood pressure panel with all children optional</span></p><p><b>subject</b>: <a href=\"Patient-example-mes-fr-patient-001.html\">Pierre Durand</a></p><p><b>effective</b>: 2012-09-17</p><p><b>performer</b>: <a href=\"Practitioner-example-mes-fr-practitionner-001.html\">Jean Dupont</a></p><p><b>interpretation</b>: <span title=\"Codes :{http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation L}\">Below low normal</span></p><p><b>bodySite</b>: <span title=\"Codes :{https://mos.esante.gouv.fr/NOS/TRE_R309-FMA/FHIR/TRE-R309-FMA 24890}\">Bras</span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes :{http://loinc.org 8480-6}\">Systolic blood pressure</span></p><p><b>value</b>: 107 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmm[Hg] = 'mm[Hg]')</span></p><p><b>interpretation</b>: <span title=\"Codes :{http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation N}\">Normal</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes :{http://loinc.org 8462-4}\">Diastolic blood pressure</span></p><p><b>value</b>: 60 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmm[Hg] = 'mm[Hg]')</span></p><p><b>interpretation</b>: <span title=\"Codes :{http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation L}\">En-dessous de la normale</span></p></blockquote></div>"
+  ] ;
+  fhir:Observation.status [ fhir:value "final"] ;
+  fhir:Observation.category [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/observation-category" ] ;
+       fhir:Coding.code [ fhir:value "vital-signs" ]
+     ]
+  ] ;
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
        a loinc:85354-9 ;
-       fhir:system [
-         fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:l <http://loinc.org>
-       ] ;
-       fhir:code [ fhir:v "85354-9" ]
-     ] )
-  ] ; # 
-  fhir:subject [
-     fhir:l <https://interop.esante.gouv.fr/ig/fhir/mesures/Patient/example-mes-fr-patient-001> ;
-     fhir:reference [ fhir:v "Patient/example-mes-fr-patient-001" ] ;
-     fhir:type [
-       fhir:v "Patient"^^xsd:anyURI ;
-       fhir:l fhir:Patient
+       fhir:Coding.system [ fhir:value "http://loinc.org" ] ;
+       fhir:Coding.code [ fhir:value "85354-9" ]
+     ]
+  ] ;
+  fhir:Observation.subject [
+     fhir:link <https://interop.esante.gouv.fr/ig/fhir/mesures/Patient/example-mes-fr-patient-001> ;
+     fhir:Reference.reference [ fhir:value "Patient/example-mes-fr-patient-001" ] ;
+     fhir:Reference.type [ fhir:value "Patient" ] ;
+     fhir:Reference.display [ fhir:value "Pierre Durand" ]
+  ] ;
+  fhir:Observation.effectiveDateTime [ fhir:value "2012-09-17"^^xsd:date] ;
+  fhir:Observation.performer [
+     fhir:index 0 ;
+     fhir:link <https://interop.esante.gouv.fr/ig/fhir/mesures/Practitioner/example-mes-fr-practitionner-001> ;
+     fhir:Reference.reference [ fhir:value "Practitioner/example-mes-fr-practitionner-001" ] ;
+     fhir:Reference.display [ fhir:value "Jean Dupont" ]
+  ] ;
+  fhir:Observation.interpretation [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation" ] ;
+       fhir:Coding.code [ fhir:value "L" ] ;
+       fhir:Coding.display [ fhir:value "low" ]
      ] ;
-     fhir:display [ fhir:v "Pierre Durand" ]
-  ] ; # 
-  fhir:effective [
-     a fhir:DateTime ;
-     fhir:v "2012-09-17"^^xsd:date
-  ] ; # 
-  fhir:performer ( [
-     fhir:l <https://interop.esante.gouv.fr/ig/fhir/mesures/Practitioner/example-mes-fr-practitionner-001> ;
-     fhir:reference [ fhir:v "Practitioner/example-mes-fr-practitionner-001" ] ;
-     fhir:display [ fhir:v "Jean Dupont" ]
-  ] ) ; # 
-  fhir:interpretation ( [
-     fhir:coding ( [
-       fhir:system [
-         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
-         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
-       ] ;
-       fhir:code [ fhir:v "L" ] ;
-       fhir:display [ fhir:v "low" ]
-     ] ) ;
-     fhir:text [ fhir:v "Below low normal" ]
-  ] ) ; # 
-  fhir:bodySite [
-     fhir:coding ( [
-       fhir:system [
-         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R309-FMA/FHIR/TRE-R309-FMA"^^xsd:anyURI ;
-         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R309-FMA/FHIR/TRE-R309-FMA>
-       ] ;
-       fhir:code [ fhir:v "24890" ] ;
-       fhir:display [ fhir:v "Bras" ]
-     ] )
-  ] ; # 
-  fhir:component ( [
-     fhir:code [
-       fhir:coding ( [
+     fhir:CodeableConcept.text [ fhir:value "Below low normal" ]
+  ] ;
+  fhir:Observation.bodySite [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "https://mos.esante.gouv.fr/NOS/TRE_R309-FMA/FHIR/TRE-R309-FMA" ] ;
+       fhir:Coding.code [ fhir:value "24890" ] ;
+       fhir:Coding.display [ fhir:value "Bras" ]
+     ]
+  ] ;
+  fhir:Observation.component [
+     fhir:index 0 ;
+     fhir:Observation.component.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
          a loinc:8480-6 ;
-         fhir:system [
-           fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:l <http://loinc.org>
-         ] ;
-         fhir:code [ fhir:v "8480-6" ] ;
-         fhir:display [ fhir:v "Systolic blood pressure" ]
-       ] )
+         fhir:Coding.system [ fhir:value "http://loinc.org" ] ;
+         fhir:Coding.code [ fhir:value "8480-6" ] ;
+         fhir:Coding.display [ fhir:value "Systolic blood pressure" ]
+       ]
      ] ;
-     fhir:value [
-       a fhir:Quantity ;
-       fhir:value [ fhir:v "107"^^xsd:decimal ] ;
-       fhir:unit [ fhir:v "mm[Hg]" ] ;
-       fhir:system [
-         fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:l <http://unitsofmeasure.org>
+     fhir:Observation.component.valueQuantity [
+       fhir:Quantity.value [ fhir:value "107"^^xsd:decimal ] ;
+       fhir:Quantity.unit [ fhir:value "mm[Hg]" ] ;
+       fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+       fhir:Quantity.code [ fhir:value "mm[Hg]" ]
+     ] ;
+     fhir:Observation.component.interpretation [
+       fhir:index 0 ;
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation" ] ;
+         fhir:Coding.code [ fhir:value "N" ] ;
+         fhir:Coding.display [ fhir:value "Normal" ]
        ] ;
-       fhir:code [ fhir:v "mm[Hg]" ]
-     ] ;
-     fhir:interpretation ( [
-       fhir:coding ( [
-         fhir:system [
-           fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
-           fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
-         ] ;
-         fhir:code [ fhir:v "N" ] ;
-         fhir:display [ fhir:v "Normal" ]
-       ] ) ;
-       fhir:text [ fhir:v "Normal" ]
-     ] )
-  ] [
-     fhir:code [
-       fhir:coding ( [
+       fhir:CodeableConcept.text [ fhir:value "Normal" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:Observation.component.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
          a loinc:8462-4 ;
-         fhir:system [
-           fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:l <http://loinc.org>
-         ] ;
-         fhir:code [ fhir:v "8462-4" ] ;
-         fhir:display [ fhir:v "Diastolic blood pressure" ]
-       ] )
+         fhir:Coding.system [ fhir:value "http://loinc.org" ] ;
+         fhir:Coding.code [ fhir:value "8462-4" ] ;
+         fhir:Coding.display [ fhir:value "Diastolic blood pressure" ]
+       ]
      ] ;
-     fhir:value [
-       a fhir:Quantity ;
-       fhir:value [ fhir:v "60"^^xsd:decimal ] ;
-       fhir:unit [ fhir:v "mm[Hg]" ] ;
-       fhir:system [
-         fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-         fhir:l <http://unitsofmeasure.org>
+     fhir:Observation.component.valueQuantity [
+       fhir:Quantity.value [ fhir:value "60"^^xsd:decimal ] ;
+       fhir:Quantity.unit [ fhir:value "mm[Hg]" ] ;
+       fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+       fhir:Quantity.code [ fhir:value "mm[Hg]" ]
+     ] ;
+     fhir:Observation.component.interpretation [
+       fhir:index 0 ;
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation" ] ;
+         fhir:Coding.code [ fhir:value "L" ] ;
+         fhir:Coding.display [ fhir:value "low" ]
        ] ;
-       fhir:code [ fhir:v "mm[Hg]" ]
-     ] ;
-     fhir:interpretation ( [
-       fhir:coding ( [
-         fhir:system [
-           fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
-           fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
-         ] ;
-         fhir:code [ fhir:v "L" ] ;
-         fhir:display [ fhir:v "low" ]
-       ] ) ;
-       fhir:text [ fhir:v "En-dessous de la normale" ]
-     ] )
-  ] ) . # 
+       fhir:CodeableConcept.text [ fhir:value "En-dessous de la normale" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/mesures/Observation/example-mes-fr-observation-bp-001.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 
