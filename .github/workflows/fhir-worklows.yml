@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           path: igSource
-      - uses: ansforge/IG-workflows@main
+      - uses: ansforge/interop-IG-workflows@simplify/squash-deploy-step
         with:
           repo_ig: "./igSource"
           github_page: "true"
