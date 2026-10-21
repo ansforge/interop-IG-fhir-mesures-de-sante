@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="example-mes-fr-practitionner-001"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : Praticien example-mes-fr-practitionner-001</b></p><a name="example-mes-fr-practitionner-001"> </a><a name="hcexample-mes-fr-practitionner-001"> </a><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Jean Dupont (http://www.acme.org/practitioners#801234567897)</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="L'enregistrement est actif">Actif :</td><td colspan="3">true</td></tr><tr><td style="background-color: #f3f5da" title="Ways to contact the Practitioner">Coordonnées</td><td colspan="3"><ul><li>ph: 01 70 88 88 64(Work)</li><li>7 rue Coursier Amiens 80000 (home)</li></ul></td></tr></table></div>
+  </text>
+  <identifier>
+    <system value="http://www.acme.org/practitioners"/>
+    <value value="801234567897"/>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <family value="Dupont"/>
+    <given value="Jean"/>
+    <prefix value="Mr"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="01 70 88 88 64"/>
+    <use value="work"/>
+    <rank value="1"/>
+  </telecom>
+  <address>
+    <use value="home"/>
+    <line value="7 rue Coursier"/>
+    <city value="Amiens"/>
+    <postalCode value="80000"/>
+  </address>
+</Practitioner>

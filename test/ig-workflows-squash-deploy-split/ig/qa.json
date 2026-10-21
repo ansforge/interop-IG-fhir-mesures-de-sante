@@ -1,0 +1,20 @@
+{
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/mesures/ImplementationGuide/ans.fhir.fr.mesures",
+  "name" : "Mesures",
+  "title" : "Guide d'implémentation FHIR - Mesures de santé",
+  "description" : "",
+  "status" : "active",
+  "package-id" : "ans.fhir.fr.mesures",
+  "ig-ver" : "3.2.0",
+  "date" : "Wed, 21 Oct, 2026 07:52:44 +0000",
+  "dateISO8601" : "2026-10-21T07:52:44+00:00",
+  "errs" : 249,
+  "warnings" : 883,
+  "hints" : 68,
+  "broken-links" : 15,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "6.0.0-snapshot1 (3)",
+  "maxMemory" : 1481064960
+}

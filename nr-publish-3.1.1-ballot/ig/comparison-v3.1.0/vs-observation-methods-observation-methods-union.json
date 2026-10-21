@@ -1,0 +1,32 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "24da4cfd-d334-41f3-9756-700a19f010ae-101",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/24da4cfd-d334-41f3-9756-700a19f010ae-101",
+  "name" : "UnionObservationMethodsAndObservationMethods",
+  "title" : "Union of Observation Methods And Observation Methods",
+  "status" : "draft",
+  "date" : "2026-01-30T09:38:23+00:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "272394005"
+      }]
+    },
+    {
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "129264002"
+      }]
+    },
+    {
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "386053000"
+      }]
+    }]
+  }
+}

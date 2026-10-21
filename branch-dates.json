@@ -1,0 +1,16 @@
+{
+  "feat/container-mode": null,
+  "main": null,
+  "nr-add-lipids": null,
+  "nr-create-hb1ac-profile": null,
+  "nr-create-ruleset-refacto": null,
+  "nr-fix": null,
+  "nr-publish-3.1.1-ballot": null,
+  "nr-release": null,
+  "nr-update-headcircum": null,
+  "nr-update-reference-range": null,
+  "nr-update-termino": null,
+  "nr-update-termino-package": null,
+  "nriss-patch-1": null,
+  "test/ig-workflows-squash-deploy-split": "2026-10-21T08:00:57Z"
+}
